@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Projeto1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="play.btb">PLAY</string>
+    <string name="share.btb">SHARE</string>
+    <string name="rank.btb">RANK</string>
+    <string name="tutorial.txt">tutorial</string><string name="title_activity_play">PlayActivity</string>
+	<string name="fix">fix</string>
+    
+
+</resources>
