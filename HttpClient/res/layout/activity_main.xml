@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="br.edu.ufabc.android.httpclient.MainActivity" >
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="19dp"
+        android:text="Go!"
+        android:onClick="clickBtnGo" />
+
+    <TextView
+        android:id="@+id/txtProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnGo"
+        android:layout_alignBottom="@+id/btnGo"
+        android:layout_centerHorizontal="true"
+        android:text="**Progress**"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnGo"
+        android:layout_below="@+id/btnGo"
+        android:layout_marginTop="36dp"
+        android:text="** STATUS **"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtStatus"
+        android:layout_below="@+id/txtStatus"
+        android:layout_marginTop="46dp"
+        android:text="** RESULTADO **"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
